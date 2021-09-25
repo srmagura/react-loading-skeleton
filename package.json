@@ -29,7 +29,7 @@
   "scripts": {
     "start": "yarn run storybook",
     "test": "jest",
-    "build": "babel src --out-dir lib --delete-dir-on-start --ignore \"src/**/*.test.js\" && cp src/index.d.ts lib",
+    "build": "babel src --out-dir lib --delete-dir-on-start --ignore \"src/**/*.test.js\" && pwsh -c \"cp src/index.d.ts lib\"",
     "storybook": "start-storybook -p 8080",
     "prepublishOnly": "yarn run build"
   },
