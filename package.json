@@ -1,6 +1,6 @@
 {
-    "name": "react-loading-skeleton",
-    "version": "3.0.1",
+    "name": "@srmagura/react-loading-skeleton",
+    "version": "3.0.1-rc.0",
     "keywords": [
         "react",
         "loading",
