@@ -19,7 +19,7 @@ module.exports = {
         'testing-library/custom-renders': 'off',
     },
     rules: {
-        'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
+        'no-plusplus': 'off',
         'no-restricted-syntax': [
             'error',
             // Options from https://github.com/airbnb/javascript/blob/master/packages/eslint-config-airbnb-base/rules/style.js
@@ -50,6 +50,7 @@ module.exports = {
         'import/prefer-default-export': 'off',
 
         'react/require-default-props': 'off',
+        'react/function-component-definition': 'off',
 
         'testing-library/no-node-access': 'off',
     },
