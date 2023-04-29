@@ -1,5 +1,5 @@
 {
-  "name": "react-loading-skeleton",
+  "name": "@srmagura/react-loading-skeleton",
   "version": "3.2.1",
   "description": "Make beautiful, animated loading skeletons that automatically adapt to your app.",
   "keywords": [
